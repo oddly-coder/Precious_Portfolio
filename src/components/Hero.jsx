@@ -39,7 +39,7 @@ export default function Hero() {
             {profile.name}
           </h1>
           <span className="animate-draw mt-6 block h-0.5 w-20 origin-left bg-gold" />
-          <p className="animate-rise mt-6 font-display text-xl font-semibold leading-snug text-navy/90 sm:text-2xl" style={{ animationDelay: '.15s' }}>
+          <p className="animate-rise mt-6 font-display  leading-snug text-navy/90 " style={{ animationDelay: '.15s' }}>
             {profile.tagline}
           </p>
           <p className="animate-rise mt-7 max-w-xl text-lg leading-relaxed" style={{ animationDelay: '.3s' }}>{heroIntro[0]}</p>
