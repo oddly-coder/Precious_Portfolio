@@ -65,7 +65,7 @@ export default function ServiceApplication() {
         <h1 className="text-4xl font-extrabold sm:text-5xl">Apply for a service</h1>
         <span className="mt-5 block h-0.5 w-14 bg-gold" />
         <p className="mt-6 leading-relaxed">Thank you for your interest in working with me. Please complete the form below with information about your project, the support you need, and your expected outcomes. Your submission will help me understand the request and assess whether I am available and suitably positioned to support it.</p>
-        <p className="mt-4 rounded-xl bg-gold/10 p-4 text-sm leading-relaxed">Submitting an application does not automatically confirm acceptance or establish a professional engagement. If your request is suitable, I will contact you to discuss the next steps.</p>
+        
       </div>
 
       {status === 'done' ? (
