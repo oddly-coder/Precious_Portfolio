@@ -3,10 +3,10 @@
 // ─────────────────────────────────────────────────────────────
 export const profile = {
   name: 'Ekeh Precious Maro',
-  tagline: 'Social Impact. Technology and Innovation. Programme Management.',
-  portrait: null, // e.g. '/portrait.jpg' (put the approved photo in /public)
-  email: '', // TODO: preferred professional email
-  linkedin: '', // TODO: LinkedIn profile URL
+  tagline: 'Social Impact | Technology and Innovation | Programme Management.',
+  portrait: '/portrait.jpeg', // e.g. '' (put the approved photo in /public)
+  email: 'ekehpreciousmaro43@gmail.com', // TODO: preferred professional email
+  linkedin: 'https://www.linkedin.com/in/preciousmaroekeh22', // TODO: LinkedIn profile URL
   otherLinks: [], // e.g. [{ label: 'GitHub', href: 'https://…' }]
   launchYear: new Date().getFullYear(),
 }
@@ -14,14 +14,13 @@ export const profile = {
 export const nav = [
   { label: 'Home', href: '#home' },
   { label: 'About Me', href: '#about' },
-  { label: 'Experience & Projects', href: '#experience' },
   { label: 'Services', href: '#services' },
   { label: 'Achievements', href: '#achievements' },
   { label: 'Contact', href: '#contact' },
 ]
 
 export const heroIntro = [
-  'I am driven by a clear purpose: to make education more accessible, expand opportunities for young people, strengthen organisations’ impact, and develop solutions that address real challenges in people’s lives.',
+  'I am driven by a clear purpose to make education more accessible, expand opportunities for young people, strengthen organisations’ impact, and develop solutions that address real challenges in people’s lives.',
   'With a background in Mechatronics and Systems Engineering and experience spanning nonprofit leadership, programme management, partnerships, youth development, and technology-driven innovation, I bring together technical thinking and people-centred approaches to turn ideas into practical solutions and effective programmes.',
   'My work focuses on building stronger systems, creating opportunities for young people and underserved communities, and supporting solutions that can grow and deliver lasting impact.',
 ]
@@ -70,9 +69,9 @@ export const projects = [
   { placeholder: true, title: 'Featured project', status: 'Status', text: 'A concise description of the project, your role, and verified outcomes.' },
 ]
 export const achievements = [
-  { placeholder: true, title: 'Fellowship, award or leadership role', text: 'Add a verified achievement with year and awarding body.' },
-  { placeholder: true, title: 'Technical project or certification', text: 'Add a verified achievement with year and awarding body.' },
-  { placeholder: true, title: 'Professional development', text: 'Add a verified achievement with year and awarding body.' },
+  { placeholder: true, title: 'Fellowship, Award and Leadership Role', text: 'Awareness 360 Fellow and Youth accountability Fellow' },
+  { placeholder: true, title: 'Technical Project and Certification', text: 'Quality Assurance Assessor' },
+  { placeholder: true, title: 'Professional Development', text: 'Program Management' },
 ]
 
 export const servicesIntro = 'I support organisations, businesses, teams, and individuals working to turn ideas into practical programmes, projects, and solutions. Requests are assessed based on scope, required expertise, availability, timeline, and agreed terms.'

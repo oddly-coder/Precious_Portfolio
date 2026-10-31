@@ -1,7 +1,6 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
-import Experience from './components/Experience'
 import Services from './components/Services'
 import Achievements from './components/Achievements'
 import Contact from './components/Contact'
@@ -19,7 +18,7 @@ export default function App() {
       <main id="main">
         {route === 'apply' ? <ServiceApplication /> : route === 'privacy' ? <PrivacyNotice /> : (
           <>
-            <Hero /><About /><Experience /><Services /><Achievements /><Contact />
+            <Hero /><About /><Services /><Achievements /><Contact />
           </>
         )}
       </main>
